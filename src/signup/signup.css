@@ -1,0 +1,70 @@
+.section .eye{
+    background-image: url("../images/Group\ 287.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.section{
+    display: flex;
+    margin: auto;
+    width: 80%;
+    height: 50%;
+    background-color: #F7F7F7;
+    margin-bottom: 8%;
+}
+.sec_heading{
+    font-weight: bold; 
+}
+.sec_left{
+    flex: 2;
+    padding: 5%;
+    line-height: 25px;
+}
+.sec_left input{
+    border: none;
+    background-color: #F7F7F7;
+    width: 100%;
+}
+.sec_left input:focus{
+    outline: none;
+}
+.sec_left hr{
+    width: 100%;
+    text-align: left;
+    margin-left: 0;
+}
+.sec_left .signin_btn{
+    margin-top: 3%;
+}
+.sec_left button{
+    margin: 1% 2%;
+    padding: 3%;
+    border-radius: 5px;
+    background-color: #F7AD19;
+    color: white;
+    border: none;
+}
+.sec_left_bottom{
+    display: flex;
+}
+.sec_left .sec_left_bottom{
+    margin: 2% 2%;
+}
+.sec_left_bottom a{
+    color: black;
+    text-decoration: none;
+}
+.sec_left_bottom a:nth-child(2){
+    font-size: large;
+}
+.sec_left .forgrt_div{
+    text-align: right;
+}
+.sec_right{
+    flex: 3;
+}
+.sec_right img{
+    margin-left: 0;
+    padding: 2%;
+    width: 550px;
+    height: 550px;
+}
